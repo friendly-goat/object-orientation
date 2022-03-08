@@ -167,7 +167,7 @@ function totalPopulation(obj){
   Push these new variables to an array and return the array. 
 */
 
-function ingredients(obj){
+const ingredients = (obj) => {
   let {carb,fat,protien} = obj
   let arr = [carb,fat,protien]
   return arr
